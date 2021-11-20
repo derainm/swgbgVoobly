@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\dsound.cpp" />
+    <ClCompile Include="drsLoader.cpp" />
+    <ClCompile Include="language.cpp" />
+    <ClCompile Include="wideScreen.cpp" />
+    <ClCompile Include="windowed.cpp" />
+    <ClCompile Include="drsfile.cpp" />
+    <ClCompile Include="slp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\dsound.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drsLoader.h" />
+    <ClInclude Include="MemoryMgr.h" />
+    <ClInclude Include="language.h" />
+    <ClInclude Include="wideScreen.h" />
+    <ClInclude Include="windowed.h" />
+    <ClInclude Include="drsfile.h" />
+    <ClInclude Include="slp.h" />
+  </ItemGroup>
+</Project>
